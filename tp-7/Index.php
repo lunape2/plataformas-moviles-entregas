@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">sitio web</a>
+   
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">link 1</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">link 2</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">link 3</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--carrucel-->
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active text-center p-5" style="background-color: #6f42c1;">
+      <h2>rompiste corazon </h2>
+    </div>
+    <div class="carousel-item text-center p-5" style="background-color: #6f42c1;">
+      <h2>jugaste con mi amor</h2>
+    </div>
+    <div class="carousel-item text-center p-5" style="background-color: #6f42c1;">
+      <h2>eres ajena </h2>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- CUADRO PRINCIPAL -->
+
+<div class="container mt-5">
+
+    <div class="card p-4">
+
+        <h2 class="text-center">
+            Articulo
+        </h2>
+
+        <h4 class="text-center text-secondary">
+            SubArticulo
+        </h4>
+<div class="row mt-4 g-3">
+
+    <!-- CARD 1 -->
+
+    <div class="col-12 col-sm-6 col-md-3">
+
+        <div class="card h-100">
+
+            <img src="https://placehold.co/300x200"
+                 class="card-img-top"
+                 alt="img1">
+
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    Carta 1
+                </h5>
+
+                <p class="card-text">
+                    Texto de ejemplo para la carta 1.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CARD 2 -->
+
+    <div class="col-12 col-sm-6 col-md-3">
+
+        <div class="card h-100">
+
+            <img src="https://placehold.co/300x200"
+                 class="card-img-top"
+                 alt="img2">
+
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    Carta 2
+                </h5>
+
+                <p class="card-text">
+                    Texto de ejemplo para la carta 2.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CARD 3 -->
+
+    <div class="col-12 col-sm-6 col-md-3">
+
+        <div class="card h-100">
+
+            <img src="https://placehold.co/300x200"
+                 class="card-img-top"
+                 alt="img3">
+
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    Carta 3
+                </h5>
+
+                <p class="card-text">
+                    Texto de ejemplo para la carta 3.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CARD 4 -->
+
+    <div class="col-12 col-sm-6 col-md-3">
+
+        <div class="card h-100">
+
+            <img src="https://placehold.co/300x200"
+                 class="card-img-top"
+                 alt="img4">
+
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    Carta 4
+                </h5>
+
+                <p class="card-text">
+                    Texto de ejemplo para la carta 4.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--acordion-->
+<div class="container mt-5">
+
+    <div class="card p-4">
+
+    
+    <!--item 1-->
+    <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>a</strong>
+      </div>
+    </div>
+  </div>
+
+    <!--item 2-->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>b</strong>
+      </div>
+    </div>
+  </div>
+
+  <!--item 3-->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>c</strong> 
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    </div>
+<!--formulario-->
+
+<div class="container mt-5">
+
+    <div class="card p-4">
+
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">nombre</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">gmail</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <div class="mb-3">
+
+                <label class="form-label">
+                    Comentario
+                </label>
+
+                <textarea class="form-control"
+                          rows="4"
+                          placeholder="Escriba un comentario"></textarea>
+
+<br>
+</form>
+   <button type="submit"
+                    class="btn btn-primary">
+
+                Enviar
+
+            </button>
+
+            <button type="reset"
+                    class="btn btn-secondary">
+
+                Limpiar
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
