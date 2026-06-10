@@ -236,72 +236,71 @@
 </div>
     </div>
     </div>
-<!--formulario-->
-
-<div class="container mt-5">
-
+<!-- FORMULARIO -->
+<div class="container mt-5 mb-5">
     <div class="card p-4">
 
-<form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">nombre</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
+        <form>
 
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">gmail</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
+            <!-- NOMBRE -->
+            <div class="row mb-3">
+                <label class="col-12 col-md-3 col-form-label">Nombre</label>
+                <div class="col-12 col-md-9">
+                    <input type="text" class="form-control"
+                           placeholder="Ingrese su nombre">
+                </div>
+            </div>
 
-  <div class="mb-3">
+            <!-- GMAIL -->
+            <div class="row mb-3">
+                <label class="col-12 col-md-3 col-form-label">Gmail</label>
+                <div class="col-12 col-md-9">
+                    <input type="email" class="form-control"
+                           placeholder="Ingrese su gmail">
+                </div>
+            </div>
 
-                <label class="form-label">
-                    Comentario
-                </label>
+            <!-- COMENTARIO -->
+            <div class="row mb-3">
+                <label class="col-12 col-md-3 col-form-label">Comentario</label>
+                <div class="col-12 col-md-9">
+                    <textarea class="form-control" rows="4"
+                              placeholder="Escriba un comentario"></textarea>
+                </div>
+            </div>
 
-                <textarea class="form-control"
-                          rows="4"
-                          placeholder="Escriba un comentario"></textarea>
-
-<br>
-</form>
-   <button type="submit"
-                    class="btn btn-primary">
-
-                Enviar
-
-            </button>
-
-            <button type="reset"
-                    class="btn btn-secondary">
-
-                Limpiar
-
-            </button>
+            <!-- BOTONES -->
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center justify-content-md-end">
+                    <button type="submit" class="btn btn-primary me-2">Enviar</button>
+                    <button type="reset" class="btn btn-secondary">Limpiar</button>
+                </div>
+            </div>
 
         </form>
 
     </div>
+</div>
+<!-- FORMULARIO termina -->
 
 </div>
+</div>
+<!-- CUADRO PRINCIPAL termina -->
 
 <!-- FOOTER NAVBAR -->
-
-<nav class="navbar navbar-dark bg-dark">
-    <div class="container">
+<nav class="navbar navbar-dark bg-dark w-100">
+    <div class="container-fluid">
 
         <span class="navbar-brand">
             Plataformas Móviles
         </span>
 
         <span class="navbar-text text-white">
-            Santiago Luna
+            Ali Vergara
         </span>
 
     </div>
 </nav>
-
-
     <script src="js/bootstrap.bundle.min.js"></script>
     
 </body>
