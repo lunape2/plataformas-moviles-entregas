@@ -48,9 +48,10 @@ strong {
 }
 
 /* 9. Padding-left  */
-#og-precuelas{
-    padding-left: 80px;   
+#ep-pre {
+    padding-left: 60px;   
 }
+
 
 /* 10. Margin-top */
 .movies-list:last-of-type li:last-child {
